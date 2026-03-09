@@ -48,10 +48,10 @@ wget -q https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download
 
 echo "开始构建固件..."
 
-make image PROFILE="x86-64" \
+make image PROFILE="generic" \
 PACKAGES="$PACKAGES" \
 FILES="files" \
-ROOTFS_PARTSIZE=1024
+ROOTFS_PARTSIZE=10240
 
 if [ $? -ne 0 ]; then
     echo "构建失败"
