@@ -65,6 +65,8 @@ openssh-sftp-server \
 luci-app-mosdns \
 luci-i18n-mosdns-zh-cn \
 luci-i18n-filemanager-zh-cn \
+luci-app-adguardhome \
+luci-i18n-adguardhome-zh-cn \
 "
 
 # 第三方插件
